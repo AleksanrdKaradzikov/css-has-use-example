@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="container">
+        <div class="actions">
+          <form name="actions">
+            <label>
+              Show image
+              <input type="checkbox" class="checkbox" name="toggle" />
+            </label>
+            <label>
+              File type
+              <select class="select" name="type">
+                <option value=".pdf">.pdf</option>
+                <option value=".xls">.xls</option>
+                <option value=".docx">.docx</option>
+              </select>
+            </label>
+          </form>
+        </div>
+        <div class="file">
+          <div class="thumb"></div>
+          <div class="meta">
+            <a href="file.docx" class="meta-link">
+              <span>Some file name</span>
+              <p class="meta-info">
+                File type: 302 page PDf, File size: 28.1 MB
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
